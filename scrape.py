@@ -11,13 +11,15 @@ import requests
 
 counter = 0
 sites = []
-limit = 500
 elem_on_page = 0
 
 def extract_top_sites(url,limit=500): 
 	global counter
 	global sites
 	global elem_on_page
+
+
+	print("so far sites look like this: ", sites)
 
 	# check to see if hard limit is respected
 	if (limit > 500):
@@ -27,7 +29,8 @@ def extract_top_sites(url,limit=500):
 	r = requests.get(url)
 	if (r.status_code != 200):
 		print("status not 200 for url: %s", url)
-		return 0
+		print(sites)
+		return sites
 	else:
 		html = r.text
 		print("status 200 for url %s", url)
@@ -43,16 +46,20 @@ def extract_top_sites(url,limit=500):
 	# now update sites and counter
 	if (1 == get_sites_from_page(site_listings, limit)):
 		# open next page of rankings
-		next_page = soup.find('a', class_="next")['href']
+		try: 
+			next_page = soup.find('a', class_="next")['href']
+		except:
+			print("no more pages left\n")
+			return sites
+
 		print(next_page)
 		str_index = url.find("topsites")
 		new_url = url[0:str_index - 1] + next_page
 
 		# recursive call
-		extract_top_sites(new_url, (limit-elem_on_page))
+		extract_top_sites(new_url, limit)
 	else:
 		print("counter value " + str(counter))
-		print(sites)
 		return sites
 
 
@@ -84,8 +91,9 @@ def get_sites_from_page(site_listings, limit):
 		else:
 			# limit is reached...
 			return 0
-    # limit not reached yet
-	return 1
+
+	# check if limit was reached by the end of the loop.
+	return 1 if (counter < limit) else 0
 
 
 

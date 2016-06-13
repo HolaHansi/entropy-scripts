@@ -21,7 +21,7 @@ def get_clean_urls():
 			except:
 				continue
 			#insert id_ string in url to retrieve minimal site
-			# url = url[:index] + "id_" + url[index:]
+			url = url[:index] + "id_" + url[index:]
 			# get http status of link
 			status = requests.get(url).status_code
 			# if ok, append to list of links 
@@ -33,8 +33,8 @@ def get_clean_urls():
 	q.writelines(urls)
 
 	# remember to close files (maybe not super important in python :> )
-	close(q)
-	close(f)
+	q.close()
+	f.close()
 
 	print("saved %d valid urls to urls.txt ", len(urls))
 	return 0
