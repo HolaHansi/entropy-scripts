@@ -8,16 +8,24 @@ import requests
 # 	f = open('urls.txt', 'r')
 # 	urls = f.readlines()
 
-
 counter = 0
 sites = []
 elem_on_page = 0
+
+
+def reset_vars():
+	global sites
+	global counter
+	global elem_on_page
+
+	sites = []
+	counter = 0
+	elem_on_page = 0
 
 def extract_top_sites(url,limit=500): 
 	global counter
 	global sites
 	global elem_on_page
-
 
 	print("so far sites look like this: ", sites)
 
@@ -29,8 +37,10 @@ def extract_top_sites(url,limit=500):
 	r = requests.get(url)
 	if (r.status_code != 200):
 		print("status not 200 for url: %s", url)
-		print(sites)
-		return sites
+		# reset vars
+		reset_vars()
+		to_return = sites
+		return to_return
 	else:
 		html = r.text
 		print("status 200 for url %s", url)
@@ -50,7 +60,9 @@ def extract_top_sites(url,limit=500):
 			next_page = soup.find('a', class_="next")['href']
 		except:
 			print("no more pages left\n")
-			return sites
+			to_return = sites
+			reset_vars()
+			return to_return
 
 		print(next_page)
 		str_index = url.find("topsites")
@@ -60,7 +72,10 @@ def extract_top_sites(url,limit=500):
 		extract_top_sites(new_url, limit)
 	else:
 		print("counter value " + str(counter))
-		return sites
+		to_return = sites
+		# reset vars
+		reset_vars()
+		return to_return
 
 
 	
@@ -81,7 +96,6 @@ def get_sites_from_page(site_listings, limit):
 			link = re.split('/', link)[-1]
 			# remove double quotes
 			link = link[0:-1]
-
 			# increment counter and create tuple s.t. site_tup = (rank, url)
 			counter += 1
 			site_tup = (counter, link)
