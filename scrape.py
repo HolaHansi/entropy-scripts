@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup 
+import copy
 import re
 import requests
 
@@ -27,8 +28,6 @@ def extract_top_sites(url,limit=500):
 	global sites
 	global elem_on_page
 
-	print("so far sites look like this: ", sites)
-
 	# check to see if hard limit is respected
 	if (limit > 500):
 		print("limit max is 500\n")
@@ -36,14 +35,13 @@ def extract_top_sites(url,limit=500):
 
 	r = requests.get(url)
 	if (r.status_code != 200):
-		print("status not 200 for url: %s", url)
+		print("WARNING: status not 200 for url: %s !" % url)
 		# reset vars
-		reset_vars()
 		to_return = sites
+		reset_vars()
 		return to_return
 	else:
 		html = r.text
-		print("status 200 for url %s", url)
 
 	soup = BeautifulSoup(html, 'html.parser')
 
@@ -69,7 +67,7 @@ def extract_top_sites(url,limit=500):
 		new_url = url[0:str_index - 1] + next_page
 
 		# recursive call
-		extract_top_sites(new_url, limit)
+		return extract_top_sites(new_url, limit)
 	else:
 		print("counter value " + str(counter))
 		to_return = sites
