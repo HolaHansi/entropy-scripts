@@ -8,7 +8,7 @@ os.makedirs("ranking_files")
 
 
 # get urls from memento and save to urls.txt
-get_clean_urls()
+#get_clean_urls()
 # scrape first url 
 f = open('urls.txt')
 urls = f.readlines()
@@ -18,13 +18,13 @@ f.close()
 os.chdir("ranking_files")
 
 for url in urls:
-	print("======== \n \n")
 	# the name of a result file is the date of the snapshot .txt
 	date = re.search('[0-9]+', url).group()
-	to_save = extract_top_sites(url[0:-1], 100)
-
-	print("value of to_save: ", to_save, "\n")
+	to_save = extract_top_sites(url[0:-1], 500)
 
 	q = open(str(date)+".txt", 'w')
-	q.writelines(str(to_save))
+	for tup  in to_save:
+		# write tuples in CSV format to file
+		q.write(str(tup[0]) + "," + tup[1] + "\n")
 	q.close()
+	print('wrote another result to file \n')

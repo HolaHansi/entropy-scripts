@@ -36,7 +36,7 @@ def get_clean_urls():
 	q.close()
 	f.close()
 
-	print("saved %d valid urls to urls.txt ", len(urls))
+	print("saved %d valid urls to urls.txt " % len(urls))
 	return 0
 
 

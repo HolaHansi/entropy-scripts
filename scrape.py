@@ -49,7 +49,6 @@ def extract_top_sites(url,limit=500):
 	site_listings = soup.find_all(class_="site-listing")
 
 	elem_on_page = len(site_listings)
-	print(elem_on_page)
 	
 	# now update sites and counter
 	if (1 == get_sites_from_page(site_listings, limit)):
@@ -62,14 +61,12 @@ def extract_top_sites(url,limit=500):
 			reset_vars()
 			return to_return
 
-		print(next_page)
 		str_index = url.find("topsites")
 		new_url = url[0:str_index - 1] + next_page
 
 		# recursive call
 		return extract_top_sites(new_url, limit)
 	else:
-		print("counter value " + str(counter))
 		to_return = sites
 		# reset vars
 		reset_vars()
