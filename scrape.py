@@ -105,6 +105,29 @@ def get_sites_from_page(site_listings, limit):
 	return 1 if (counter < limit) else 0
 
 
+def get_description(url):
+	"""
+	returns the content of the meta description tag in header of the html
+	refered to by the argument url.
+	"""
+	r = requests.get(url)
+	# status code check - is url ok? 
+	if (requests.get(url).status_code != 200):
+		print("ERROR: Status code is not 200")
+		return "ERROR_STATUS_NOT_200"
+
+	# make some soup
+	soup = BeautifulSoup(r.text, 'html.parser')
+
+	description_tag = soup.findAll(attrs={"name" : "description"})
+
+	try: 
+		desc = description_tag[0]['content']
+	except:
+		print ("WARNING: no description tag")
+		return "NO_DESC_ON_PAGE"
+
+	return desc
 
 
 

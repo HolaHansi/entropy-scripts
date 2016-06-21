@@ -1,445 +1,446 @@
-1,google.com
-2,facebook.com
-3,youtube.com
-4,yahoo.com
-5,live.com
-6,baidu.com
-7,wikipedia.org
-8,blogspot.com
-9,qq.com
-10,twitter.com
-11,msn.com
-12,yahoo.co.jp
-13,taobao.com
-14,google.co.in
-15,sina.com.cn
-16,amazon.com
-17,google.de
-18,google.com.hk
-19,wordpress.com
-20,google.co.uk
-21,wordpress.com
-22,google.co.uk
-23,yandex.ru
-24,google.co.jp
-25,ebay.com
-26,microsoft.com
-27,google.fr
-28,163.com
-29,mozilla.com
-30,google.com.br
-31,googleusercontent.com
-32,mail.ru
-33,apple.com
-34,fc2.com
-35,flickr.com
-36,google.it
-37,bbc.co.uk
-38,craigslist.org
-39,google.es
-40,paypal.com
-41,cnn.com
-42,google.ca
-43,aol.com
-44,soso.com
-45,youku.com
-46,xhamster.com
-47,yieldmanager.com
-48,mediafire.com
-49,zedo.com
-50,tudou.com
-51,godaddy.com
-52,pornhub.com
-53,adobe.com
-54,ifeng.com
-55,wordpress.org
-56,google.co.id
-57,espn.go.com
-58,ameblo.jp
-59,about.com
-60,rakuten.co.jp
-61,4shared.com
-62,livejournal.com
-63,ebay.de
-64,livedoor.com
-65,google.com.tr
-66,google.com.mx
-67,alibaba.com
-68,google.com.au
-69,youporn.com
-70,myspace.com
-71,cnet.com
-72,uol.com.br
-73,weibo.com
-74,renren.com
-75,google.pl
-76,nytimes.com
-77,thepiratebay.org
-78,conduit.com
-79,orkut.com.br
-80,ebay.co.uk
-81,cnzz.com
-82,chinaz.com
-83,hao123.com
-84,orkut.com
-85,fileserve.com
-86,netflix.com
-87,twitpic.com
-88,dailymotion.com
-89,google.com.sa
-90,weather.com
-91,weather.com
-92,google.com.sa
-93,doubleclick.com
-94,odnoklassniki.ru
-95,amazon.co.jp
-96,alipay.com
-97,babylon.com
-98,tube8.com
-99,stumbleupon.com
-100,google.nl
-101,globo.com
-102,goo.ne.jp
-103,tmall.com
-104,megavideo.com
-105,secureserver.net
-106,tianya.cn
-107,imageshack.us
-108,imgur.com
-109,badoo.com
-110,ehow.com
-111,photobucket.com
-112,taringa.net
-113,xnxx.com
-114,deviantart.com
-115,hotfile.com
-116,rapidshare.com
-117,filestube.com
-118,douban.com
-119,stackoverflow.com
-120,optmd.com
-121,sogou.com
-122,redtube.com
-123,dailymail.co.uk
-124,addthis.com
-125,spiegel.de
-126,vimeo.com
-127,amazon.co.uk
-128,aweber.com
-129,reddit.com
-130,fbcdn.net
-131,google.cn
-132,mixi.jp
-133,digg.com
-134,indiatimes.com
-135,answers.com
-136,filesonic.com
-137,360buy.com
-138,google.com.eg
-139,pengyou.com
-140,sparkstudios.com
-141,google.com.pk
-142,bit.ly
-143,sourceforge.net
-144,clicksor.com
-145,google.co.th
-146,bankofamerica.com
-147,amazonaws.com
-148,rediff.com
-149,nicovideo.jp
-150,xtendmedia.com
-151,mozilla.com
-152,yfrog.com
-153,56.com
-154,download.com
-155,58.com
-156,google.co.za
-157,maktoob.com
-158,warriorforum.com
-159,kaixin001.com
-160,torrentz.eu
-161,youjizz.com
-162,foxnews.com
-163,statcounter.com
-164,reference.com
-165,liveinternet.ru
-166,rambler.ru
-167,adf.ly
-168,reference.com
-169,ganji.com
-170,wikimedia.org
-171,booking.com
-172,chase.com
-173,youjizz.com
-174,techcrunch.com
-175,w3schools.com
-176,skype.com
-177,bild.de
-178,files.wordpress.com
-179,hotfile.com
-180,blogfa.com
-181,zol.com.cn
-182,onet.pl
-183,etsy.com
-184,wikia.com
-185,reuters.com
-186,ameba.jp
-187,56.com
-188,domaintools.com
-189,kaixin001.com
-190,terra.com.br
-191,digitalpoint.com
-192,archive.org
-193,typepad.com
-194,clickbank.com
-195,answers.com
-196,salesforce.com
-197,comcast.net
-198,people.com.cn
-199,google.com.my
-200,allegro.pl
-201,free.fr
-202,google.be
-203,soufun.com
-204,wsj.com
-205,repubblica.it
-206,hootsuite.com
-207,google.co.ve
-208,hostgator.com
-209,squidoo.com
-210,scribd.com
-211,xunlei.com
-212,mywebsearch.com
-213,orange.fr
-214,qiyi.com
-215,adultfriendfinder.com
-216,tribalfusion.com
-217,soku.com
-218,google.gr
-219,walmart.com
-220,telegraph.co.uk
-221,php.net
-222,google.com.vn
-223,tripadvisor.com
-224,search-results.com
-225,hatena.ne.jp
-226,google.com.co
-227,wupload.com
-228,youdao.com
-229,narod.ru
-230,ku6.com
-231,ezinearticles.com
-232,libero.it
-233,groupon.com
-234,web.de
-235,china.com
-236,pgmediaserve.com
-237,mozilla.com
-238,gmx.net
-239,51.la
-240,leboncoin.fr
-241,blogfa.com
-242,skyrock.com
-243,stumbleupon.com
-244,xinhuanet.com
-245,libero.it
-246,metroflog.com
-247,allegro.pl
-248,angege.com
-249,126.com
-250,gamespot.com
-251,hatena.ne.jp
-252,bild.de
-253,wp.pl
-254,mybrowserbar.com
-255,keezmovies.com
-256,biglobe.ne.jp
-257,ynet.com
-258,secureserver.net
-259,narod.ru
-260,ameba.jp
-261,google.com.vn
-262,google.com.co
-263,google.at
-264,gougou.com
-265,google.gr
-266,dailymail.co.uk
-267,megaporn.com
-268,streamate.com
-269,xing.com
-270,51.la
-271,google.se
-272,kooora.com
-273,guardian.co.uk
-274,naver.com
-275,ign.com
-276,istockphoto.com
-277,pconline.com.cn
-278,scribd.com
-279,vnexpress.net
-280,ucoz.ru
-281,squidoo.com
-282,wordpress.org
-283,leo.org
-284,avg.com
-285,torrents.ru
-286,mozilla.org
-287,addthis.com
-288,wsj.com
-289,infoseek.co.jp
-290,google.ro
-291,58.com
-292,sakura.ne.jp
-293,ig.com.br
-294,spankwire.com
-295,google.com.my
-296,studiverzeichnis.com
-297,google.ch
-298,mop.com
-299,seznam.cz
-300,friendster.com
-301,telegraph.co.uk
-302,hubpages.com
-303,csdn.net
-304,geocities.jp
-305,leboncoin.fr
-306,hyves.nl
-307,walmart.com
-308,youdao.com
-309,verycd.com
-310,homeway.com.cn
-311,google.pt
-312,skype.com
-313,people.com.cn
-314,tom.com
-315,uploading.com
-316,opendns.com
-317,reuters.com
-318,pogo.com
-319,multiply.com
-320,liveinternet.ru
-321,brothersoft.com
-322,google.com.pe
-323,tnaflix.com
-324,megaclick.com
-325,vimeo.com
-326,eastmoney.com
-327,ocn.ne.jp
-328,veoh.com
-329,yelp.com
-330,fotolog.net
-331,usps.com
-332,yourfilehost.com
-333,thefreedictionary.com
-334,nba.com
-335,google.cl
-336,tribalfusion.com
-337,seesaa.net
-338,ebay.it
-339,justin.tv
-340,softonic.com
-341,t-online.de
-342,bestbuy.com
-343,in.com
-344,ups.com
-345,google.com.ua
-346,amazonaws.com
-347,adultadworld.com
-348,babylon.com
-349,softpedia.com
-350,4399.com
-351,marca.com
-352,360buy.com
-353,blogcatalog.com
-354,reddit.com
-355,last.fm
-356,onemanga.com
-357,empflix.com
-358,imagebam.com
-359,paipai.com
-360,rr.com
-361,commentcamarche.net
-362,mapquest.com
-363,clickbank.com
-364,theplanet.com
-365,tripadvisor.com
-366,daum.net
-367,verizon.net
-368,virgilio.it
-369,ziddu.com
-370,kakaku.com
-371,ganji.com
-372,icio.us
-373,constantcontact.com
-374,kaskus.us
-375,washingtonpost.com
-376,mashable.com
-377,google.com.ph
-378,zshare.net
-379,plentyoffish.com
-380,formspring.me
-381,letitbit.net
-382,zing.vn
-383,repubblica.it
-384,ikea.com
-385,att.com
-386,engadget.com
-387,z5x.net
-388,google.com.tw
-389,target.com
-390,etsy.com
-391,wer-kennt-wen.de
-392,cj.com
-393,marketgid.com
-394,wordreference.com
-395,focus.cn
-396,harrenmedianetwork.com
-397,newegg.com
-398,dmm.co.jp
-399,hurriyet.com.tr
-400,alimama.com
-401,tuenti.com
-402,btjunkie.org
-403,gamefaqs.com
-404,techcrunch.com
-405,118114.cn
-406,latimes.com
-407,hardsextube.com
-408,google.co.hu
-409,w3schools.com
-410,uimserv.net
-411,miniclip.com
-412,over-blog.com
-413,msn.ca
-414,fox.com
-415,shufuni.com
-416,ebay.fr
-417,chase.com
-418,chip.de
-419,game2.com.cn
-420,hostgator.com
-421,shareasale.com
-422,miniclip.com
-423,imesh.com
-424,justin.tv
-425,ebay.fr
-426,youm7.com
-427,ibm.com
-428,qip.ru
-429,mapquest.com
-430,chip.de
-431,gsmarena.com
-432,hc360.com
-433,posterous.com
-434,surveymonkey.com
-435,pogo.com
-436,exoplanetwar.com
-437,google.co.il
-438,cocolog-nifty.com
-439,zhaopin.com
-440,brothersoft.com
-441,verizonwireless.com
-442,google.fi
-443,sape.ru
-444,newegg.com
-445,downloadhelper.net
+1,google.com,NO_DESC_ON_PAGE
+2,facebook.com, Facebook is a social utility that connects people with friends and others who work study and live around them. People use Facebook to keep up with friends upload an unlimited number of photos post links and videos and learn more about the people they meet.
+3,youtube.com,YouTube is a place to discover watch upload and share videos.
+4,yahoo.com,Welcome to Yahoo! the world's most visited home page. Quickly find what you're searching for get in touch with friends and stay in-the-know with the latest news and information.
+5,live.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+6,baidu.com,URL_NOT_IN_ARCHIVE
+7,wikipedia.org,Wikipedia the free encyclopedia that anyone can edit.
+8,blogspot.com,ERROR_STATUS_NOT_200
+9,qq.com,腾讯网(www.QQ.com)是中国浏览量最大的中文门户网站，是腾讯公司推出的集新闻信息、互动社区、娱乐产品和基础服务为一体的大型综合门户网站。腾讯网服务于全球华人用户，致力成为最具传播力和互动性，权威、主流、时尚的互联网媒体平台。通过强大的实时新闻和全面深入的信息资讯服务，为中国数以亿计的互联网用户提供富有创意的网上新生活。
+10,twitter.com,Twitter is without a doubt the best way to share and discover what is happening right now.
+11,msn.com,MSN is Microsoft's portal offering MSNBC News sports MSN Money games videos entertainment & celebrity gossip weather shopping and more great content as well as Windows Live services such as Hotmail and Messenger.
+12,yahoo.co.jp,日本最大級のポータルサイト。検索、オークション、ニュース、メール、コミュニティ、ショッピング、など80以上のサービスを展開。あなたの生活をより豊かにする「ライフ・エンジン」を目指していきます。
+13,taobao.com,URL_NOT_IN_ARCHIVE
+14,google.co.in,NO_DESC_ON_PAGE
+15,sina.com.cn,新浪网为全球用户24小时提供全面及时的中文资讯，内容覆盖国内外突发新闻事件、体坛赛事、娱乐时尚、产业资讯、实用信息等，设有新闻、体育、娱乐、财经、科技、房产、汽车等30多个内容频道，同时开设博客、视频、论坛等自由互动交流空间。
+16,amazon.com,Online shopping from the earth's biggest selection of books magazines music DVDs videos electronics computers software apparel & accessories shoes jewelry tools & hardware housewares furniture sporting goods beauty & personal care broadband & dsl gourmet food & just about anything else.
+17,google.de,NO_DESC_ON_PAGE
+18,google.com.hk,NO_DESC_ON_PAGE
+19,wordpress.com,NO_DESC_ON_PAGE
+20,google.co.uk,NO_DESC_ON_PAGE
+21,wordpress.com,NO_DESC_ON_PAGE
+22,google.co.uk,NO_DESC_ON_PAGE
+23,yandex.ru,NO_DESC_ON_PAGE
+24,google.co.jp,NO_DESC_ON_PAGE
+25,ebay.com,Buy and sell electronics cars clothing apparel collectibles sporting goods digital cameras and everything else on eBay the world's online marketplace. Sign up and begin to buy and sell - auction or buy it now - almost anything on eBay.com
+26,microsoft.com,NO_DESC_ON_PAGE
+27,google.fr,NO_DESC_ON_PAGE
+28,163.com,NO_DESC_ON_PAGE
+29,mozilla.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+30,google.com.br,NO_DESC_ON_PAGE
+31,googleusercontent.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+32,mail.ru,URL_NOT_IN_ARCHIVE
+33,apple.com,NO_DESC_ON_PAGE
+34,fc2.com,FC2 is a portal site which brings you a pleasant web life providing blog/website/analyzer services and others. Our blog service is ranked No.2 domestically and supported by wide range of users including both beginners and heavy users. We offer as many as 30 different services.
+35,flickr.com,Flickr is almost certainly the best online photo management and sharing application in the world. Show off your favorite photos and videos to the world securely and privately show content to your friends and family or blog the photos and videos you take with a cameraphone.
+36,google.it,NO_DESC_ON_PAGE
+37,bbc.co.uk,Breaking news sport TV radio and a whole lot more. The BBC informs educates and entertains - wherever you are whatever your age.
+38,craigslist.org,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+39,google.es,NO_DESC_ON_PAGE
+40,paypal.com,PayPal is the faster safer way to send money make an online payment receive money or set up a merchant account.
+41,cnn.com,URL_NOT_IN_ARCHIVE
+42,google.ca,NO_DESC_ON_PAGE
+43,aol.com,AOL offers today’s news sports stock quotes weather movie reviews TV trends and more. Get free email AIM access online radio videos and horoscopes -- all on AOL.com!
+44,soso.com,URL_NOT_IN_ARCHIVE
+45,youku.com,优酷网-中国第一视频网站提供视频播放视频发布视频搜索 - 视频服务平台提供视频播放视频发布视频搜索视频分享 - 优酷视频
+46,xhamster.com,xHamster's Free Porn Videos. Biggest collection of free amateur porn videos! Tons of well organized movies are waiting for you
+47,yieldmanager.com,URL_NOT_IN_ARCHIVE
+48,mediafire.com,URL_NOT_IN_ARCHIVE
+49,zedo.com,NO_DESC_ON_PAGE
+50,tudou.com,NO_DESC_ON_PAGE
+51,godaddy.com,Register & transfer domains for less. Reliable hosting. Easy-to-use site builders. Affordable SSL certificates. eCommerce solutions. ICANN-accredited.
+52,pornhub.com,Free porn sex videos & pussy movies. Porn hub is the ultimate xxx pornsex and pussy tube download sex videos or stream free xxx and free pussy movies.
+53,adobe.com,NO_DESC_ON_PAGE
+54,ifeng.com,NO_DESC_ON_PAGE
+55,wordpress.org,NO_DESC_ON_PAGE
+56,google.co.id,NO_DESC_ON_PAGE
+57,espn.go.com,ESPN.com provides comprehensive sports coverage.  Complete sports information including NFL MLB NBA College Football College Basketball scores and news.
+58,ameblo.jp,アメーバブログ（アメブロ）はブログを簡単に作成できる登録無料のブログサイト。動画や限定公開機能が使え、有名人・芸能人のブログも充実。携帯（モブログ）にも対応。
+59,about.com,About.com is a valuable resource for content that helps people to solve the large and small needs of everyday life.
+60,rakuten.co.jp,NO_DESC_ON_PAGE
+61,4shared.com,URL_NOT_IN_ARCHIVE
+62,livejournal.com,LiveJournal is a vibrant global social media platform where users share common passions and interests.  With hundreds of communities built around popular interests like entertainment celebrity gossip music food travel fashion parenting pets and more LiveJournal users express themselves through creative journaling and lively commentary.
+63,ebay.de,Auf eBay.de finden Sie neue gebrauchte und Vintage-Artikel von privaten und gewerblichen Verkäufern. Ob Mode Unterhaltungselektronik Haushaltsgeräte Autoteile Möbel Garten Heimwerker und vieles mehr - Hier erwarten Sie großartige Schnäppchen. Besuchen Sie auch unser Outlet mit Top-Marken direkt von Markenherstellern und Händlern
+64,livedoor.com,ライブドアが運営するポータルサイト。340万人のユーザを抱えるlivedoor blogと幅広い情報ソースを誇るlivedoor ニュース、その融合であるブログメディアを柱に、厳選した情報をお届けします。
+65,google.com.tr,NO_DESC_ON_PAGE
+66,google.com.mx,NO_DESC_ON_PAGE
+67,alibaba.com,Find quality Manufacturers Suppliers Exporters Importers Buyers Wholesalers Products and Trade Leads from our award-winning International Trade Site. Import & Export on alibaba.com
+68,google.com.au,NO_DESC_ON_PAGE
+69,youporn.com,NO_DESC_ON_PAGE
+70,myspace.com,See what’s happening on MySpace! Find friends & classmates meet new people listen to free music & build playlists share photos watch videos start a blog read celebrity news get cool apps free IM & more…
+71,cnet.com,CNET is the premier destination for tech product reviews news price comparisons free software downloads daily videos and podcasts.
+72,uol.com.br,O UOL é o maior provedor de acesso à Internet do Brasil. É também o maior provedor de conteúdo em língua portuguesa do mundo.
+73,weibo.com,URL_NOT_IN_ARCHIVE
+74,renren.com,NO_DESC_ON_PAGE
+75,google.pl,NO_DESC_ON_PAGE
+76,nytimes.com,Find breaking news multimedia reviews & opinion on Washington business sports movies travel books jobs education real estate cars & more.
+77,thepiratebay.org,Download music movies games software and much more. The Pirate Bay is the world's largest bittorrent tracker.
+78,conduit.com,100% Free Custom Toolbar or App - Over 250000 Publishers Increased Traffic and Brand Awareness by Placing Their Site on a Community Toolbar or App. No Hidden Costs Safe & Secure. See it Now!
+79,orkut.com.br,URL_NOT_IN_ARCHIVE
+80,ebay.co.uk,Visit eBay.co.uk to buy and sell new used and vintage items from private or professional sellers. Great deals on clothes tech car parts home & garden and many more. You can also buy new items direct from brands and retailers through our Outlet
+81,cnzz.com,CNZZ网站流量统计以互联网数据业务为主要方向，致力于为广大站长提供最为稳定、安全、先进、可靠的专业流量统计系统与数据服务
+82,chinaz.com,NO_DESC_ON_PAGE
+83,hao123.com,URL_NOT_IN_ARCHIVE
+84,orkut.com,URL_NOT_IN_ARCHIVE
+85,fileserve.com,URL_NOT_IN_ARCHIVE
+86,netflix.com,URL_NOT_IN_ARCHIVE
+87,twitpic.com,NO_DESC_ON_PAGE
+88,dailymotion.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+89,google.com.sa,NO_DESC_ON_PAGE
+90,weather.com,NO_DESC_ON_PAGE
+91,weather.com,NO_DESC_ON_PAGE
+92,google.com.sa,NO_DESC_ON_PAGE
+93,doubleclick.com,NO_DESC_ON_PAGE
+94,odnoklassniki.ru,URL_NOT_IN_ARCHIVE
+95,amazon.co.jp,ネット通販Amazon公式サイト。全品配送無料(一部を除く)。家電をはじめ、ファッション、食品、ベビー用品まで1000万点以上の商品を毎日お安く求めいただけます。お急ぎ便ご利用で当日・翌日にお届け。
+96,alipay.com,中国最大的第三方电子支付服务提供商
+97,babylon.com,NO_DESC_ON_PAGE
+98,tube8.com,Streaming the best free porn videos on Tube 8. We have the Best SEXtube on the net giving you the HOTTEST free sex movies & porntube videos.
+99,stumbleupon.com,StumbleUpon is a discovery engine that finds the best of the web recommended just for you.
+100,google.nl,NO_DESC_ON_PAGE
+101,globo.com,Na Globo.com você encontra tudo sobre o conteúdo e marcas das Organizações Globo. O melhor acervo online de vídeos sobre entretenimento esportes e jornalismo do Brasil.
+102,goo.ne.jp,NTTレゾナントが運営する安心・安全のポータルサイトです。検索、辞書、地図、乗り換え、ニュース、ショッピングなど生活に便利な機能が充実。あなたの行動を支援するメディアとして様々なサービスを展開しています。
+103,tmall.com,URL_NOT_IN_ARCHIVE
+104,megavideo.com,URL_NOT_IN_ARCHIVE
+105,secureserver.net,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+106,tianya.cn,天涯社区，以“全球最具影响力的论坛”闻名于世，并提供博客、相册、个人空间等服务。拥有天涯杂谈、娱乐八卦、情感天地等超人气栏目，以及关天茶舍、煮酒论史等高端人文论坛。这里诞生了最热的网络事件，最多的草根明星……
+107,imageshack.us,ImageShack offers image hosting free photo sharing and video sharing. Upload your photos host your videos and share them with friends and family.
+108,imgur.com,Imgur is used to share photos with social networks and online communities. You can also view the funniest pictures from all over the Internet. There's no limit to how many you can share or upload and uploading only takes seconds.
+109,badoo.com,Badoo is a free online dating site for meeting new girls and guys in and around your local area. Games and tools for gaining attention. Chat flirt socialize and have fun! Free online dating with single women & men.
+110,ehow.com,Learn how to do just about everything at eHow. Expert Village is now a part of eHow adding expert How To videos to eHow the world's most popular place to find How To instructions and articles.
+111,photobucket.com,Photobucket offers image hosting free photo sharing and video sharing. Upload your photos host your videos and share them with friends and family.
+112,taringa.net,NO_DESC_ON_PAGE
+113,xnxx.com,XNXX delivers free sex movies and flash porn videos (tube porn). 450000+ sex vids available for free featuring hot pussy sexy girls in xxx rated clips.
+114,deviantart.com,Art - community of artists and those devoted to art. Digital art skin art themes wallpaper art traditional art photography poetry / prose. Art prints.
+115,hotfile.com,NO_DESC_ON_PAGE
+116,rapidshare.com,NO_DESC_ON_PAGE
+117,filestube.com,NO_DESC_ON_PAGE
+118,douban.com,提供图书、电影、音乐唱片的推荐、评论和价格比较，以及城市独特的文化生活。
+119,stackoverflow.com,NO_DESC_ON_PAGE
+120,optmd.com,NO_DESC_ON_PAGE
+121,sogou.com,URL_NOT_IN_ARCHIVE
+122,redtube.com,Free porn sex videos & pussy movies. RedTube is the leading sex xxx porn and pussy tube download free porn videos or stream free xxx and free pussy movies.
+123,dailymail.co.uk,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+124,addthis.com,AddThis is a free way to boost traffic back to your site by making it easier for visitors to share your content.
+125,spiegel.de,Deutschlands führende Nachrichtenseite. Alles Wichtige aus Politik Wirtschaft Sport Kultur Wissenschaft Technik und mehr.
+126,vimeo.com,Vimeo is a respectful community of creative people who are passionate about sharing the videos they make. We provide the best tools and highest quality video in the universe.
+127,amazon.co.uk,Low prices on digital cameras MP3 sports equipment books music DVDs video games home & garden and much more.  Free UK delivery on Amazon orders.
+128,aweber.com,Email marketing software that's easy to use & only $1 to try. Send email newsletters & autoresponders. Top notch email deliverability with our tools. Free expert support services online or by phone.
+129,reddit.com,NO_DESC_ON_PAGE
+130,fbcdn.net,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+131,google.cn,NO_DESC_ON_PAGE
+132,mixi.jp,mixi(ミクシィ)は、日記、写真共有、ゲームや便利ツール満載のアプリなど、さまざまなサービスで友人・知人とのコミュニケーションをさらに便利に楽しくする、日本最大規模のソーシャル・ネットワーキングサービスです。
+133,digg.com,The best news videos and pictures on the web as voted on by the Digg community. Breaking news on Technology Politics Entertainment and more!
+134,indiatimes.com,Indiatimes: India's top portal for news movies Bollywood videos cricket celebrity pictures business finance travel online shopping astrology games and email
+135,answers.com,Answers.com: Wiki Q&A combined with free online dictionary thesaurus and encyclopedias. Ask questions get answers.
+136,filesonic.com,URL_NOT_IN_ARCHIVE
+137,360buy.com,京东商城-专业的数码网上购物商城产品包括数码、家电、手机、电脑配件、网络产品等数万种商品直销便捷，诚信的服务为您提供愉悦的网上商城购物体验!
+138,google.com.eg,NO_DESC_ON_PAGE
+139,pengyou.com,NO_DESC_ON_PAGE
+140,sparkstudios.com,NO_DESC_ON_PAGE
+141,google.com.pk,NO_DESC_ON_PAGE
+142,bit.ly,bit.ly a simple url shortener
+143,sourceforge.net,SourceForge.net. Fast secure and free downloads from the largest Open Source applications and software directory
+144,clicksor.com,Promote your business with today's most effective online contextual advertising technology and behavioral Marketing Services at a cost effective metric of CPC PPC CPM or CPV.
+145,google.co.th,NO_DESC_ON_PAGE
+146,bankofamerica.com,NO_DESC_ON_PAGE
+147,amazonaws.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+148,rediff.com,Rediff.com - India's leading portal which covers India news Hindi Movies Photos Videos Live Cricket Score Stock updates from BSE and NSE Bollywood news Online shopping Social networking Rediffmail NG
+149,nicovideo.jp,NO_DESC_ON_PAGE
+150,xtendmedia.com,Welcome to XTEND - We've developed XTEND with a bold agenda: XTEND is a one-stop-shop for both Advertisers looking to max out their ROI and Publishers who are ready to sit back and let the value of their inventory soar
+151,mozilla.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+152,yfrog.com,yfrog
+153,56.com,56.com拥有数量巨大的原创视频库、及完整影视库，从观看视频、上传视频、到分享视频都拥有极佳的用户体验；56.com目前是中国最大的视频分享平台，在此平台能与众多的网友进行视频分享、互动、娱乐……
+154,download.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+155,58.com,58同城是中国第一中文分类信息网站，涵盖房产、车辆、招工、兼职、黄页等海量的生活分类信息，满足您不同的查询需求。同时也是您最好的免费发布信息网站。
+156,google.co.za,NO_DESC_ON_PAGE
+157,maktoob.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+158,warriorforum.com,Internet Marketing Forum. The best place to learn about internet marketing ebook selling and home based business.
+159,kaixin001.com,开心网是一个在线社区通过它您可以与朋友、同学、同事、家人保持更紧密的联系及时了解他们的动态;与他们分享你的照片、心情、快乐。
+160,torrentz.eu,NO_DESC_ON_PAGE
+161,youjizz.com,NO_DESC_ON_PAGE
+162,foxnews.com,Breaking News Latest News and Current News from FOXNews.com. Breaking news and video. Latest Current News: U.S. World Entertainment Health Business Technology Politics Sports.
+163,statcounter.com,NO_DESC_ON_PAGE
+164,reference.com,Reference.com - Free online encyclopedia and reference. Quickly research famous people places topics and events from trusted sources.
+165,liveinternet.ru,NO_DESC_ON_PAGE
+166,rambler.ru,NO_DESC_ON_PAGE
+167,adf.ly,URL_NOT_IN_ARCHIVE
+168,reference.com,Reference.com - Free online encyclopedia and reference. Quickly research famous people places topics and events from trusted sources.
+169,ganji.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+170,wikimedia.org,Wikimedia is owned and operated by the Wikimedia Foundation a non-profit foundation dedicated to bringing free content to the world.
+171,booking.com,Save up to 75% on hotels in 15000 destinations worldwide. Read hotel reviews and find the guaranteed best price on a choice of hotels to suit any budget.
+172,chase.com,Welcome to CHASE a leading global financial services firm with operations in more that 60 countries. Chase is a leader in investment banking financial services for consumers business and commercial.
+173,youjizz.com,NO_DESC_ON_PAGE
+174,techcrunch.com,NO_DESC_ON_PAGE
+175,w3schools.com,NO_DESC_ON_PAGE
+176,skype.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+177,bild.de,BILD.de: Die Seite 1 für aktuelle Nachrichten Bilder und Videos aus den Bereichen News Wirtschaft Politik Show Sport und Promis.
+178,files.wordpress.com,URL_NOT_IN_ARCHIVE
+179,hotfile.com,NO_DESC_ON_PAGE
+180,blogfa.com,BlogFa -  Free Persian Weblog Service
+181,zol.com.cn,中国领先的IT信息与商务门户 包括新闻 商城 硬件 下载 游戏 手机 评测等40个大型频道，每天发布大量各类产品促销信息及文章专题，是IT行业的厂商 经销商 IT产品 解决方案的提供场所
+182,onet.pl,Dzisiaj w Onet.pl: wiadomości z kraju i ze świata; biznes sport rozrywka i pogoda. Sprawdź pocztę bloguj czatuj i umawiaj się na randki.
+183,etsy.com,Buy and sell handmade or vintage items art and supplies on Etsy the world's most vibrant handmade marketplace. Share stories through millions of items from around the world.
+184,wikia.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+185,reuters.com,Reuters.com brings you the latest news from around the world covering breaking news in business politics entertainment technology and more in video and pictures.
+186,ameba.jp,Ameba（アメーバブログ）は、誰でも簡単にブログを作成できる登録無料のブログサービスです。写真や動画も利用可能、芸能人・有名人ブログなど、コンテンツも充実した総合メディアです。
+187,56.com,56.com拥有数量巨大的原创视频库、及完整影视库，从观看视频、上传视频、到分享视频都拥有极佳的用户体验；56.com目前是中国最大的视频分享平台，在此平台能与众多的网友进行视频分享、互动、娱乐……
+188,domaintools.com,URL_NOT_IN_ARCHIVE
+189,kaixin001.com,开心网是一个在线社区通过它您可以与朋友、同学、同事、家人保持更紧密的联系及时了解他们的动态;与他们分享你的照片、心情、快乐。
+190,terra.com.br,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+191,digitalpoint.com,Offering business software packages and free online tools.
+192,archive.org,NO_DESC_ON_PAGE
+193,typepad.com,TypePad is the premier blogging service. Create a blog in minutes - with stunning designs reliable hosting real-people tech support and lots more. Start a great-looking TypePad blog today!
+194,clickbank.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+195,answers.com,Answers.com: Wiki Q&A combined with free online dictionary thesaurus and encyclopedias. Ask questions get answers.
+196,salesforce.com,CRM software solutions and enterprise cloud computing from salesforce.com the leader in CRM and platform as a service. Free 30 day trial.
+197,comcast.net,Comcast.net is your home page for news sports video entertainment Comcast TV listings Email and much more!
+198,people.com.cn,人民网，是世界十大报纸之一《人民日报》建设的以新闻为主的大型网上信息发布平台，也是互联网上最大的中文和多语种新闻网站之一。作为国家重点新闻网站，人民网以新闻报道的权威性、及时性、多样性和评论性为特色，在网民中树立起了“权威媒体、大众网站”的形象。
+199,google.com.my,NO_DESC_ON_PAGE
+200,allegro.pl,Allegro - największe aukcje internetowe najniższe ceny! Kup i sprzedaj!
+201,free.fr,NO_DESC_ON_PAGE
+202,google.be,NO_DESC_ON_PAGE
+203,soufun.com,搜房房地产网是中国最大的房地产家居网络平台，提供全面及时的房地产新闻资讯内容，为所有楼盘提供网上浏览、业主论坛和社区网站，房地产精英人物个人主页，是国内房地产媒体及业内外网友公认的全球最大的房地产网络平台，搜房引擎给网友提供房地产网站中速度快捷内容全面的智能搜索。
+204,wsj.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+205,repubblica.it,Repubblica.it: il quotidiano online con tutte le notizie in tempo reale. News e ultime notizie. Tutti i settori: politica cronaca economia sport esteri scienza tecnologia internet spettacoli musica cultura arte mostre libri dvd vhs concerti cinema attori attrici recensioni chat cucina mappe. Le città di Repubblica: Roma Milano Bologna Firenze Palermo Napoli Bari Torino.
+206,hootsuite.com,HootSuite - Social Media Dashboard. With HootSuite you can monitor keywords manage multiple Twitter Facebook LinkedIn Foursquare Ping.fm and WordPress profiles schedule messages and measure your success.
+207,google.co.ve,NO_DESC_ON_PAGE
+208,hostgator.com,HostGator is a leading provider of web hosting reseller hosting and dedicated servers. Over 2500000 websites trust HostGator for their web hosting needs.
+209,squidoo.com,Squidoo. The popular (free) site for creating single webpages on your interests and recommendations. Even earn money for charity or yourself.
+210,scribd.com,Scribd is a social publishing site where tens of millions of people share original writings and documents. Scribd's vision is to liberate the written word.
+211,xunlei.com,最好的高清观看体验、最全的影视娱乐资讯内容、最有影响力的用户参与、最便捷的下载入口。
+212,mywebsearch.com,URL_NOT_IN_ARCHIVE
+213,orange.fr,Orange vous présente ses offres de téléphones portables de forfaits mobiles et internet. 
+Retrouvez aussi la messagerie l'actualité le sport la video sur le portail Orange 
+214,qiyi.com,奇艺（QIYI.COM）是最具价值的网络视频播放平台；是国内首家专注于提供免费、高清网络视频服务的大型专业网站。奇艺影视内容丰富多元，涵盖电影、电视剧、综艺、纪录片、动画片等热门剧目；视频播放清晰流畅，操作界面简单友好，真正为用户带来“悦享品质”的观映体验。
+215,adultfriendfinder.com,Meet Swingers for Threesomes Online Singles for Sex Dating & Adult Chat on AFF
+216,tribalfusion.com,NO_DESC_ON_PAGE
+217,soku.com,NO_DESC_ON_PAGE
+218,google.gr,NO_DESC_ON_PAGE
+219,walmart.com,NO_DESC_ON_PAGE
+220,telegraph.co.uk,Latest news business sport comment lifestyle and culture plus content from the Daily Telegraph and Sunday Telegraph newspapers and video from Telegraph TV
+221,php.net,NO_DESC_ON_PAGE
+222,google.com.vn,NO_DESC_ON_PAGE
+223,tripadvisor.com,TripAdvisor - Unbiased hotel reviews photos and travel advice for hotels and vacations - Compare prices with just one click.
+224,search-results.com,URL_NOT_IN_ARCHIVE
+225,hatena.ne.jp,はてなが運営するポータルサイト。ブログもウェブアルバムもニュースも、はてながあればネットがさらに便利になります。ニンテンドーDSiのソフト「うごくメモ帳」で作った作品も楽しめます。
+226,google.com.co,NO_DESC_ON_PAGE
+227,wupload.com,NO_DESC_ON_PAGE
+228,youdao.com,网易旗下搜索引擎，主要提供网页、图片、热闻、视频、音乐、博客等传统搜索服务，同时推出海量词典、阅读、购物搜索等创新型产品。
+229,narod.ru,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+230,ku6.com,酷6网是国内最大的视频分享网站，也是中国最大的视频媒体平台，免费提供视频播客、视频分享、视频搜索等服务，可在线观看最新、最热的视频，凭借内容最全、速度最快、视觉最好三大特色，在国内网络视频领域独树一帜。
+231,ezinearticles.com,URL_NOT_IN_ARCHIVE
+232,libero.it,Libero.it: Community Search Mail News Video Adsl & Internet
+233,groupon.com,Get 50 to 90 percent off the best stuff your city has to offer. Hot deals in Chicago New York Boston and many other cities. Get your Groupon today.
+234,web.de,Das beliebteste Internetportal Deutschlands mit Angeboten rund um Suche Kommunikation (E-Mail De-Mail & mehr) Information und Services.
+235,china.com,NO_DESC_ON_PAGE
+236,pgmediaserve.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+237,mozilla.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+238,gmx.net,NO_DESC_ON_PAGE
+239,51.la,我要啦 统计面向网站站长提供免费的、功能完善的、人性化的网站流量统计分析服务
+240,leboncoin.fr,NO_DESC_ON_PAGE
+241,blogfa.com,BlogFa -  Free Persian Weblog Service
+242,skyrock.com,Blogs profiles dating groups chat games poker pictures videos music... With Skyrock create free of charge your network of friends and share your pictures your videos and widgets unlimitedly.
+243,stumbleupon.com,StumbleUpon is a discovery engine that finds the best of the web recommended just for you.
+244,xinhuanet.com,NO_DESC_ON_PAGE
+245,libero.it,Libero.it: Community Search Mail News Video Adsl & Internet
+246,metroflog.com,metroFLOG is a personal space for you to share with whoever you want. This space is completely flexible (you can include a personal description favorite links and change it's colors). You can upload a daily picture with a description and your friends can sign your guestbook.
+247,allegro.pl,Allegro - największe aukcje internetowe najniższe ceny! Kup i sprzedaj!
+248,angege.com,URL_NOT_IN_ARCHIVE
+249,126.com,网易126免费邮箱--专业电子邮局。容量自动翻倍，支持50兆附件280M网盘。支持各种客户端软件收发，垃圾邮件拦截率超过98%。
+250,gamespot.com,Video Games - GameSpot is the world's largest source for  PC PlayStation 2 Xbox 360 Wii PS3 GameCube PSP DS GBA PS2 PlayStation 3 and Xbox video game news cheats reviews and more!
+251,hatena.ne.jp,はてなが運営するポータルサイト。ブログもウェブアルバムもニュースも、はてながあればネットがさらに便利になります。ニンテンドーDSiのソフト「うごくメモ帳」で作った作品も楽しめます。
+252,bild.de,BILD.de: Die Seite 1 für aktuelle Nachrichten Bilder und Videos aus den Bereichen News Wirtschaft Politik Show Sport und Promis.
+253,wp.pl,Pierwszy horyzontalny portal internetowy w Polsce. Skuteczne medium reklamowe. Bogactwo serwisow informacyjnych i finansowych. Centrum wyszukiwania komunikacji i rozrywki: wiadomosci wyszukiwarki poczta webpark czat komunikator SMS randki kartki krzyżówki mp3 gry gry on-line muzyka film. Platforma e-commerce: aukcje zakupy przetargi oferty turystyka.
+254,mybrowserbar.com,NO_DESC_ON_PAGE
+255,keezmovies.com,Keezmovies is better than ever and we're bringing you the finest free porn on the Web today. Stream all kinds of porn tube videos from the hottest xxx pornstar movies and amateur porno. Keesmovies still holds the most comprehensive sex movie and picture galleries organized for you in alphabetical order.
+256,biglobe.ne.jp,URL_NOT_IN_ARCHIVE
+257,ynet.com,最适合白领人群阅读的资讯精选
+258,secureserver.net,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+259,narod.ru,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+260,ameba.jp,Ameba（アメーバブログ）は、誰でも簡単にブログを作成できる登録無料のブログサービスです。写真や動画も利用可能、芸能人・有名人ブログなど、コンテンツも充実した総合メディアです。
+261,google.com.vn,NO_DESC_ON_PAGE
+262,google.com.co,NO_DESC_ON_PAGE
+263,google.at,NO_DESC_ON_PAGE
+264,gougou.com,NO_DESC_ON_PAGE
+265,google.gr,NO_DESC_ON_PAGE
+266,dailymail.co.uk,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+267,megaporn.com,URL_NOT_IN_ARCHIVE
+268,streamate.com,Streamate Original Live Sex Video Cam Girls. Sexy Girls at Home and Studios with Live XXX Sex Cams & Live Girls.
+269,xing.com,Business networking for professionals on XING! Connect to business partners and find jobs colleagues and employees. Start networking! 
+270,51.la,我要啦 统计面向网站站长提供免费的、功能完善的、人性化的网站流量统计分析服务
+271,google.se,NO_DESC_ON_PAGE
+272,kooora.com,NO_DESC_ON_PAGE
+273,guardian.co.uk,Latest news sport business comment analysis and reviews from the Guardian the world's leading liberal voice
+274,naver.com,URL_NOT_IN_ARCHIVE
+275,ign.com,NO_DESC_ON_PAGE
+276,istockphoto.com,Browse the best stock library of royalty free content at prices anyone can afford.
+277,pconline.com.cn,太平洋电脑网是专业IT门户网站为用户和经销商提供IT资讯和行情报价涉及电脑手机数码产品软件等.
+278,scribd.com,Scribd is a social publishing site where tens of millions of people share original writings and documents. Scribd's vision is to liberate the written word.
+279,vnexpress.net,Thông tin hàng ngày ở Việt Nam & thế giới. Tin tức xã hội kinh doanh pháp luật khoa học công nghệ sức khoẻ đời sống văn hóa rao vặt tâm sự...
+280,ucoz.ru,NO_DESC_ON_PAGE
+281,squidoo.com,Squidoo. The popular (free) site for creating single webpages on your interests and recommendations. Even earn money for charity or yourself.
+282,wordpress.org,NO_DESC_ON_PAGE
+283,leo.org,#meta_descr#
+284,avg.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+285,torrents.ru,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+286,mozilla.org,NO_DESC_ON_PAGE
+287,addthis.com,AddThis is a free way to boost traffic back to your site by making it easier for visitors to share your content.
+288,wsj.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+289,infoseek.co.jp,NO_DESC_ON_PAGE
+290,google.ro,NO_DESC_ON_PAGE
+291,58.com,58同城是中国第一中文分类信息网站，涵盖房产、车辆、招工、兼职、黄页等海量的生活分类信息，满足您不同的查询需求。同时也是您最好的免费发布信息网站。
+292,sakura.ne.jp,レンタルサーバをお探しなら、月額125円からの「さくらのレンタルサーバ」！お気軽にお使いいただけるプランから、法人用途に最適なプランまで豊富なラインナップ。さくらインターネットがお届けする、レンタルサーバ（ホスティング）サービスです。
+293,ig.com.br,Notícias do Brasil do mundo e da economia. Esporte e cultura famosos mulher comida e os temas do momento com vídeos fotos e infográficos exclusivos.
+294,spankwire.com,NO_DESC_ON_PAGE
+295,google.com.my,NO_DESC_ON_PAGE
+296,studiverzeichnis.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+297,google.ch,NO_DESC_ON_PAGE
+298,mop.com,猫扑网是中国互联网流行文化发源地，以猫扑大杂烩、猫扑贴贴等互动产品为核心。猫扑网独特的文化气质吸引了大量锐意创新，乐观向上，具有时代代表性和生活主张的用户群体。
+299,seznam.cz,NO_DESC_ON_PAGE
+300,friendster.com,Friendster is a leading global social network emphasizing genuine friendships and the discovery of new people through friends. Search for old friends and classmates stay in better touch with friends share photos and videos and so much more!
+301,telegraph.co.uk,Latest news business sport comment lifestyle and culture plus content from the Daily Telegraph and Sunday Telegraph newspapers and video from Telegraph TV
+302,hubpages.com,HubPages is your online space to share your advice reviews useful tips opinions and insights with hundreds of other authors.  HubPages is completely free and you can even earn online ad revenue!
+303,csdn.net,
+304,geocities.jp,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+305,leboncoin.fr,NO_DESC_ON_PAGE
+306,hyves.nl,URL_NOT_IN_ARCHIVE
+307,walmart.com,NO_DESC_ON_PAGE
+308,youdao.com,网易旗下搜索引擎，主要提供网页、图片、热闻、视频、音乐、博客等传统搜索服务，同时推出海量词典、阅读、购物搜索等创新型产品。
+309,verycd.com,互联网资源分享平台，通过电驴软件给用户提供最庞大、最便捷、最人性化的资源分享网络
+310,homeway.com.cn,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+311,google.pt,NO_DESC_ON_PAGE
+312,skype.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+313,people.com.cn,人民网，是世界十大报纸之一《人民日报》建设的以新闻为主的大型网上信息发布平台，也是互联网上最大的中文和多语种新闻网站之一。作为国家重点新闻网站，人民网以新闻报道的权威性、及时性、多样性和评论性为特色，在网民中树立起了“权威媒体、大众网站”的形象。
+314,tom.com,TOM网为用户24小时提供全面及时的中文资讯，内容覆盖国内外突发新闻事件、体坛赛事、娱乐时尚、实用信息等，设有新闻、体育、娱乐、汽车等多个内容频道，其中体育内容更加精彩详实，包括围棋、篮球大本营（uhoop）、NBA、奥神官网、NBL官网、WCBA官网等详细信息报道。
+315,uploading.com,Upload files
+316,opendns.com,OpenDNS makes networks in homes schools and businesses safer faster smarter and more reliable through Web content filtering security and navigation services.
+317,reuters.com,Reuters.com brings you the latest news from around the world covering breaking news in business politics entertainment technology and more in video and pictures.
+318,pogo.com,Pogo is a great place to play free online games including puzzle games word games and card games and the chance to Win Big Prizes!
+319,multiply.com,NO_DESC_ON_PAGE
+320,liveinternet.ru,NO_DESC_ON_PAGE
+321,brothersoft.com,Free software downloadThe biggest software directory for freeware and shareware download at brothersoft.com.
+322,google.com.pe,NO_DESC_ON_PAGE
+323,tnaflix.com,Watch Free Porn videos Tnaflix is a Porn Tube site with thousands of sex movies. Download Free Porn and Stream Pornos from all niches Share your Porn Movies.
+324,megaclick.com,NO_DESC_ON_PAGE
+325,vimeo.com,Vimeo is a respectful community of creative people who are passionate about sharing the videos they make. We provide the best tools and highest quality video in the universe.
+326,eastmoney.com,URL_NOT_IN_ARCHIVE
+327,ocn.ne.jp,会員数No.1のインターネットプロバイダー、OCNのご案内。フレッツ光・ADSLなどのブロードバンド接続サービスをはじめ、IP電話や映像配信などオプションも充実。
+328,veoh.com,Veoh features millions of online videos including free TV shows movies music and more. Upload and share your videos on Veoh the video sharing network.
+329,yelp.com,San Francisco - User Reviews and Recommendations of Top Restaurants Shopping Nightlife Entertainment Services and More at Yelp
+330,fotolog.net,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+331,usps.com,Get shipping rates buy stamps print postage track a package look up a ZIP Code? - Find the mailing products and services you need at USPS.com.
+332,yourfilehost.com,Yourfilehost is a file storage service where you can upload all your files anonymously & easily share these files with your family friends messageboards webpage visitors or simply with everybody you want! domain name hostinglow cost hostingdomain hostingdedicated hostingdedicated serversdedicatedserversmultiple domain web hostinghosting reviewshosting providerspackage hosting web cheaphostinglow cost web hostingreseller hostinginternet hostingecommerce web hostingemail domain hostingweb hostingwebhostwebhosting
+333,thefreedictionary.com,URL_NOT_IN_ARCHIVE
+334,nba.com,The official site of the National Basketball Association. Includes news features multimedia player profiles chat transcripts schedules and statistics.
+335,google.cl,NO_DESC_ON_PAGE
+336,tribalfusion.com,NO_DESC_ON_PAGE
+337,seesaa.net,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+338,ebay.it,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+339,justin.tv,URL_NOT_IN_ARCHIVE
+340,softonic.com,La web en español para descargar programas gratis software freeware y juegos. Más de 50.000 programas para Windows Mac Linux Palm PocketPC Móviles. Incluye P2P mensajería compresores grabación reproductores codecs antivirus salvapantallas...
+341,t-online.de,Bei t-online.de finden Sie aktuelle Nachrichten und Informationen zu den Themen Politik Sport Wirtschaft Computer Spiele Reisen Auto Unterhaltung Handy und Karriere und einen umfassenden Service zur perfekten Kommunikation im Internet sowie ein umfangreiches Shopping-Angebot.
+342,bestbuy.com,Best Buy's online source for electronics televisions DVD players home audio car audio computers cameras music movies software GPS video games and more. Research compare and buy securely online; pick it up in a store.
+343,in.com,NO_DESC_ON_PAGE
+344,ups.com,NO_DESC_ON_PAGE
+345,google.com.ua,NO_DESC_ON_PAGE
+346,amazonaws.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+347,adultadworld.com,NO_DESC_ON_PAGE
+348,babylon.com,NO_DESC_ON_PAGE
+349,softpedia.com,A library of over 500000 free and free-to-try software programs for Windows Unix/Linux Mac Mobile Phones Games and Drivers and an up-to-date news and reviews section focused on IT subjects
+350,4399.com,4399是中国最大的小游戏专业网站免费为你提供各种小游戏包括双人小游戏最新小游戏动作小游戏益智小游戏冒险小游戏过关游戏赛尔号小游戏地下城DNF游戏赛车游戏拳皇游戏战斗机游戏等等
+351,marca.com,NO_DESC_ON_PAGE
+352,360buy.com,京东商城-专业的数码网上购物商城产品包括数码、家电、手机、电脑配件、网络产品等数万种商品直销便捷，诚信的服务为您提供愉悦的网上商城购物体验!
+353,blogcatalog.com,NO_DESC_ON_PAGE
+354,reddit.com,NO_DESC_ON_PAGE
+355,last.fm,The world’s largest online music catalogue powered by your scrobbles. Free internet radio videos photos stats charts biographies and concerts.
+356,onemanga.com,Read your favorite mangas scans and scanlations online. OneManga free online manga reader. Naruto Bleach One Piece Vampire Knight and many more. 
+357,empflix.com,NO_DESC_ON_PAGE
+358,imagebam.com,Free Image Hosting and photo sharing. Create an online album with bulk upload tools and share with family and friends.
+359,paipai.com,拍拍网为你的网购提供男女服装、美容、家居、家电、3C数码、话费充值、游戏点卡充值等优质商品，更提供先收货后付款、先行赔付、假一赔三、七天无理由退换货等安全交易保障服务!
+360,rr.com,rr.com is your page for News Sports Road Runner email TV Listings Videos Weather Stocks and more
+361,commentcamarche.net,Gratuit et accessible à tous ce site de communauté permet de se dépanner se faire aider et se former à l'informatique et aux nouvelles technologies.
+362,mapquest.com,Use MapQuest for driving directions and maps.  See local traffic and road conditions find nearby businesses and restaurants plus explore street maps and satellite photos.
+363,clickbank.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+364,theplanet.com,The Planet delivers Dedicated Hosting Managed Hosting and Cloud Hosting. Build your own server take part in reseller programs and utilize colocation services.
+365,tripadvisor.com,TripAdvisor - Unbiased hotel reviews photos and travel advice for hotels and vacations - Compare prices with just one click.
+366,daum.net,NO_DESC_ON_PAGE
+367,verizon.net,URL_NOT_IN_ARCHIVE
+368,virgilio.it,NO_DESC_ON_PAGE
+369,ziddu.com,Ziddu is a complete Free file hosting system which offers services like Free Web Hosting Image hosting & Free Web Space. Ziddu users can playwatchshare files with friends&Download Free Movies much faster. Now Mp3 DownloadsFree Games & Software downloads are much easier at no cost
+370,kakaku.com,「買ってよかった！」と思えるお買い物は価格.comから！　パソコンや家電から、ファッション、フードに至るまで、あらゆる製品・サービスを、販売価格やクチコミ情報、ランキングなどの視点から比較・検討できる、お買い物支援サイトです。
+371,ganji.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+372,icio.us,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+373,constantcontact.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+374,kaskus.us,Kaskus Forum - Online community #1 for Indonesian Community
+375,washingtonpost.com,URL_NOT_IN_ARCHIVE
+376,mashable.com,Social Media news blog covering cool new websites and social networks: Facebook Google Twitter MySpace and YouTube.  The latest web technology news via RSS daily.
+377,google.com.ph,NO_DESC_ON_PAGE
+378,zshare.net,URL_NOT_IN_ARCHIVE
+379,plentyoffish.com,100% Free online dating and matchmaking service for singles. 1500000 Daily Active Members.
+380,formspring.me,URL_NOT_IN_ARCHIVE
+381,letitbit.net,Free hosting of your files to share files with your friends with the ability to capitalize on these files.
+382,zing.vn,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+383,repubblica.it,Repubblica.it: il quotidiano online con tutte le notizie in tempo reale. News e ultime notizie. Tutti i settori: politica cronaca economia sport esteri scienza tecnologia internet spettacoli musica cultura arte mostre libri dvd vhs concerti cinema attori attrici recensioni chat cucina mappe. Le città di Repubblica: Roma Milano Bologna Firenze Palermo Napoli Bari Torino.
+384,ikea.com,NO_DESC_ON_PAGE
+385,att.com,AT&T is a leader in telecommunication services including cell phones wireless U-verse digital TV high speed internet DSL home phone and bundled services.
+386,engadget.com,
+387,z5x.net,DSNR Media guarantees bottom-line results for your online marketing objectives - from developing brand awareness to generating new leads and increasing online sales. Join our online advertising network NOW!
+388,google.com.tw,NO_DESC_ON_PAGE
+389,target.com,Shop Target and get Bullseye Free shipping when you spend $50 on over 100000 items. Shop popular categories including Furniture Baby Toys Electronics Christmas Gifts.
+390,etsy.com,Buy and sell handmade or vintage items art and supplies on Etsy the world's most vibrant handmade marketplace. Share stories through millions of items from around the world.
+391,wer-kennt-wen.de,Wer kennt wen über wen? Finde Freunde Bekannte Nachbarn und Deine Oma! Schau Dir Leute in der Umgebung an und lerne neue Freunde kennen.
+392,cj.com,Commission Junction is a global leader in Affiliate Marketing. We drive quality results for advertisers and publishers.
+393,marketgid.com,Целью нашего проекта является предоставление потенциальным покупателям актуальной информации о всех товарах и услугах их ценах поставщиках и магазинах в сети интернет
+394,wordreference.com,Free online Oxford dictionaries - Spanish French Italian German and more. Conjugations audio pronunciations and forums for your questions.
+395,focus.cn,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+396,harrenmedianetwork.com,NO_DESC_ON_PAGE
+397,newegg.com,Newegg.com offers the best prices on computer products laptop computers LED LCD TVs digital cameras electronics unlocked phones office supplies and more with fast shipping and top-rated customer service.  Once you know you Newegg!
+398,dmm.co.jp,R-18動画配信、通販、ライブチャット、オンラインDVDレンタル等の総合サイト年齢認証
+399,hurriyet.com.tr,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+400,alimama.com,淘宝联盟-我的舞台！致力于成为全球领先的开放、分享和责任的电子商务联盟！
+401,tuenti.com,NO_DESC_ON_PAGE
+402,btjunkie.org,The Largest BitTorrent Search Engine - download mp3torrentmoviemusicisosoftwaregamesanimefile sharingwindowsp2p
+403,gamefaqs.com,Founded in 1995 GameFAQs has over 40000 video game FAQs Guides and Walkthroughs over 250000 cheat codes and over 100000 reviews all submitted by our users to help you.
+404,techcrunch.com,NO_DESC_ON_PAGE
+405,118114.cn,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+406,latimes.com,The Los Angeles Times is a leading source of news on Southern California entertainment movies television music politics business health technology travel sports environment economics autos jobs real estate and other topics affecting Califor
+407,hardsextube.com,NO_DESC_ON_PAGE
+408,google.co.hu,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+409,w3schools.com,NO_DESC_ON_PAGE
+410,uimserv.net,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+411,miniclip.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+412,over-blog.com,Le portail d'OverBlog ! Le meilleur de l'info et des articles de nos blogueurs ! Créez facilement et gratuitement un blog sur OverBlog ! Forums communautés et annuaire de blog sur OverBlog !
+413,msn.ca,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+414,fox.com,NO_DESC_ON_PAGE
+415,shufuni.com,Free Porn videos Live Sex videos and XXX adult content photo sharing on Shufuni. Enjoy live sex chat porn community and amateur videos
+416,ebay.fr,Sur eBay achetez et vendez vos vêtements téléphones bijoux livres jeux collections DVD portables ou votre voiture aux enchères à prix fixe ou en petites annonces gratuites!
+417,chase.com,Welcome to CHASE a leading global financial services firm with operations in more that 60 countries. Chase is a leader in investment banking financial services for consumers business and commercial.
+418,chip.de,News Test & Kaufberatung zu PC Computer Handy und Home Entertainment.
+419,game2.com.cn,哥们网页游戏平台为当前国内最知名的网页游戏平台，网页游戏平台上汇聚了数十款优秀的网页游戏，包含多款绿色精品网页游戏，是目前国内最完善的网页游戏平台。
+420,hostgator.com,HostGator is a leading provider of web hosting reseller hosting and dedicated servers. Over 2500000 websites trust HostGator for their web hosting needs.
+421,shareasale.com,NO_DESC_ON_PAGE
+422,miniclip.com,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+423,imesh.com,Free iPod music Downloads!  Listen to your iMesh songs on your iPod Classic Nano and Shuffle!  Get playlists and albums of all the new artists.
+424,justin.tv,URL_NOT_IN_ARCHIVE
+425,ebay.fr,Sur eBay achetez et vendez vos vêtements téléphones bijoux livres jeux collections DVD portables ou votre voiture aux enchères à prix fixe ou en petites annonces gratuites!
+426,youm7.com,NO_DESC_ON_PAGE
+427,ibm.com,NO_DESC_ON_PAGE
+428,qip.ru,QIP.RU - новости и развлечения. Сайт объединяет в себе все необходимые пользователям сервисы: почту поиск знакомства хранение данных: фото видео файлов а так же широкий спектр различных онлайн игр.
+429,mapquest.com,Use MapQuest for driving directions and maps.  See local traffic and road conditions find nearby businesses and restaurants plus explore street maps and satellite photos.
+430,chip.de,News Test & Kaufberatung zu PC Computer Handy und Home Entertainment.
+431,gsmarena.com,NO_DESC_ON_PAGE
+432,hc360.com,慧聪网(hc360.com)是中国领先的B2B电子商务平台，为您提供全面的B2B行业资讯供应求购库存信息，是企业寻求电子商务网络贸易信息的首选行业门户聪慧的老板上慧聪！
+433,posterous.com,Posterous is the easiest publishing platform around. If you can email you can manage a website and share it with small groups or the world.
+434,surveymonkey.com,Create and publish online surveys in minutes and view results graphically and in real time. SurveyMonkey provides free online questionnaire and survey software.
+435,pogo.com,Pogo is a great place to play free online games including puzzle games word games and card games and the chance to Win Big Prizes!
+436,exoplanetwar.com,NO_DESC_ON_PAGE
+437,google.co.il,NO_DESC_ON_PAGE
+438,cocolog-nifty.com,ココログはブログを無料で簡単作成できるサービスです。大容量2GBが完全無料。素敵なデザインテンプレート、可愛い絵文字が沢山あり、芸能人、有名人blogも充実！モブログ対応で、携帯から楽々更新が可能！
+439,zhaopin.com,智联招聘为求职者提供职位搜索简历管理职位定制人才评测培训信息等.为企业提供一站式专业人力资源服务包括网络招聘报纸招聘校园招聘猎头服务招聘外包企业培训以及人才测评等.
+440,brothersoft.com,Free software downloadThe biggest software directory for freeware and shareware download at brothersoft.com.
+441,verizonwireless.com,NO_DESC_ON_PAGE
+442,google.fi,NO_DESC_ON_PAGE
+443,sape.ru,NO_SNAPSHOT_CLOSE_ENOUGH_IN_TIME
+444,newegg.com,Newegg.com offers the best prices on computer products laptop computers LED LCD TVs digital cameras electronics unlocked phones office supplies and more with fast shipping and top-rated customer service.  Once you know you Newegg!
+445,downloadhelper.net,DownloadHelper: the easy way to Web videos. Download tons of videos from most of YouTube like sites.
