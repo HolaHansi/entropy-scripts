@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup 
+from bs4 import BeautifulSoup
 import copy
 import re
 import requests
@@ -23,7 +23,7 @@ def reset_vars():
 	counter = 0
 	elem_on_page = 0
 
-def extract_top_sites(url,limit=500): 
+def extract_top_sites(url,limit=500):
 	global counter
 	global sites
 	global elem_on_page
@@ -49,11 +49,11 @@ def extract_top_sites(url,limit=500):
 	site_listings = soup.find_all(class_="site-listing")
 
 	elem_on_page = len(site_listings)
-	
+
 	# now update sites and counter
 	if (1 == get_sites_from_page(site_listings, limit)):
 		# open next page of rankings
-		try: 
+		try:
 			next_page = soup.find('a', class_="next")['href']
 		except:
 			print("no more pages left\n")
@@ -73,30 +73,30 @@ def extract_top_sites(url,limit=500):
 		return to_return
 
 
-	
+
 def get_sites_from_page(site_listings, limit):
 	"""
 	takes bs4 object site_listings and append the top_sites with corresponding rankings as tuples
-	to the global list variable sites. Returns 0 if limit was reached, and 1 otherwise. 
+	to the global list variable sites. Returns 0 if limit was reached, and 1 otherwise.
 	"""
 	global counter
 	global sites
 
 	for site in site_listings:
 		if (counter < limit):
-			link_node = site.find('a')
+			url_node = site.find('a')
 			# split for >
-			link = re.split('>', str(link_node))[0]
-			# get end of link 
-			link = re.split('/', link)[-1]
+			url = re.split('>', str(url_node))[0]
+			# get end of link
+			url = re.split('/', url)[-1]
 			# remove double quotes
-			link = link[0:-1]
+			url = url[0:-1]
 			# increment counter and create tuple s.t. site_tup = (rank, url)
 			counter += 1
-			site_tup = (counter, link)
+			site_dict = {"rank": counter, "url": url}
 
 			#append to list of sites
-			sites.append(site_tup)
+			sites.append(site_dict)
 		else:
 			# limit is reached...
 			return 0
@@ -111,7 +111,7 @@ def get_description(url):
 	refered to by the argument url.
 	"""
 	r = requests.get(url)
-	# status code check - is url ok? 
+	# status code check - is url ok?
 	if (requests.get(url).status_code != 200):
 		print("ERROR: Status code is not 200")
 		return "ERROR_STATUS_NOT_200"
@@ -121,17 +121,10 @@ def get_description(url):
 
 	description_tag = soup.findAll(attrs={"name" : "description"})
 
-	try: 
+	try:
 		desc = description_tag[0]['content']
 	except:
 		print ("WARNING: no description tag")
 		return "NO_DESC_ON_PAGE"
 
 	return desc
-
-
-
-
-
-	
-

@@ -22,7 +22,7 @@ def getDate(line):
 
 def get_closest_snapshot(url, date):
 	"""
-	Takes a URL and a date (integer arhive format), returns a tuple of (url, date) where url is
+	Takes a URL and a date (integer arhive format), returns a dict where url is
 	the archieved formatted url, and date is the date of the closest snapshot to the given date.
 	"""
 	# use internet arhieve API
@@ -46,21 +46,28 @@ def get_closest_snapshot(url, date):
 		print("URL not available in archive\n")
 		return -1
 	# turn dateShot into a datetime obj
-	dateShot = getDate(dateShot)
+	try:
+		dateShot = getDate(dateShot)
+	except:
+		# date from wayback API is corrupt, so we choose a really old date
+		# to avoid this description from being included
+		dateShot = getDate("19931202")
 
-	return (urlShot, dateShot)
+	toReturn = {"url": urlShot, "date": dateShot}
+
+	return toReturn
 
 def get_clean_urls():
 	"""
 	Assumes that you already has a topsites.txt from memento.
 	The function strips the urls from web.archive and saves them to urls.txt
 	"""
-	#open file of top sites 
+	#open file of top sites
 	f = open('topsites.txt', 'r')
-	lines = f.readlines() 
+	lines = f.readlines()
 	urls = []
 	for line in lines:
-		# currently, I only care about web.archieve.org	
+		# currently, I only care about web.archieve.org
 		if ("web.archive.org" in line):
 			#strip to url
 			url = (re.split(';', line)[0][1:-1])
@@ -73,7 +80,7 @@ def get_clean_urls():
 			url = url[:index] + "id_" + url[index:]
 			# get http status of link
 			status = requests.get(url).status_code
-			# if ok, append to list of links 
+			# if ok, append to list of links
 			if status == 200:
 				urls.append(url + "\n")
 				print("url is fine!")
@@ -89,7 +96,7 @@ def get_clean_urls():
 	return 0
 
 def elim_urls(interVal=30):
-	""" 
+	"""
 	open urls.txt, clean out urls according to interVal (1 month by default), and save to newUrls.txt
 	"""
 	f = open('urls.txt')
@@ -125,5 +132,3 @@ def elim_urls(interVal=30):
 	q.writelines(urlsToSave)
 	q.close()
 	f.close()
-
-
