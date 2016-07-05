@@ -9,13 +9,6 @@ from scrape import extract_top_sites, get_description
 import socket
 
 
-#
-# def add_current_urls():
-#	 """
-#	 Assumes an open connection to a populated mongo db. Will add a list of current IPS
-#	 associated with every domain.
-#	 """
-
 def add_ips_and_location():
 	"""
 	Assumes an open connection to a populated mongo db. Will add a list of current IPS
@@ -34,14 +27,12 @@ def add_ips_and_location():
 		IPLocations = []
 		for ip in ips:
 			request_url = 'http://freegeoip.net/json/%s' % ip
-			print(request_url)
 			r = requests.get(request_url)
-			print(r.text)
 			IPLocation = json.loads(r.text)
+			# add a timestamp
 			IPLocation['timestamp'] = datetime.datetime.now()
+			# add to list of ip locations
 			IPLocations.append(IPLocation)
-
-		print(IPLocations)
 
 		# now add to databse
 		result = col.update_one({'url': url},
@@ -161,41 +152,23 @@ client = MongoClient()
 db = client.alexaDB
 col = db.sites
 
-
+print("======= get urls =========\n")
 # get urls from memento and save to urls.txt
-#get_clean_urls()
+get_clean_urls()
 # decide the min time interval in days between snapshots
-# elim_urls(90)
-# scrape first url
+elim_urls(90)
+
+print("======= get topsites and put in db =======\n")
+# get all topsites and their snapshots
+initiate_urls_with_snaps()
 
 
-# print("deleted everything")
-# # fresh start
-# col.delete_many({})
-#
-# print("======= GET TOPSITES =======\n")
-# # get all topsites and their snapshots
-# initiate_urls_with_snaps()
+print("===== get descriptions to sites db ======== \n")
+set_descriptions()
 
-print("==== test print out ====")
-cursor = col.find({})
-
-for p in cursor:
-	print(p)
-
-print("==== about to add ips ====")
+print("==== add ip and location data to db ====")
 add_ips_and_location()
-#
-# print("======= GET DESCRIPTIONS =======\n")
-# # update snapshots with descriptions (heavy operation)
-# set_descriptions()
 
-
-# col.delete_many({})
-
-
-# # change working dir to save results in right folder
-# os.chdir("ranking_files")
 
 
 print("now test if can collect from mongo\n\n")
@@ -213,22 +186,3 @@ for p in cursor:
 	print (p)
 
 client.close()
-
-	# # open a file named the date of the alexa snapshot.txt
-	# q = open(str(date)+".txt", 'w')
-	#
-	# # now in each topsite add the historical description from the meta tag
-	# for tup in top_sites:
-	#	 # get historical description
-	#	 histo_header_desc = getDescription(tup)
-	#	 print("description!!:::::::::::\n")
-	#	 print(histo_header_desc)
-	#
-	#	 # write tuples in CSV format to file
-	#	 toWrite = str(tup[0]) + "," + tup[1] + "," + histo_header_desc + "\n"
-	#	 print(toWrite)
-	#	 q.write(toWrite)
-	#
-	# # remember to close file
-	# q.close()
-	# print('wrote another result to file \n')
