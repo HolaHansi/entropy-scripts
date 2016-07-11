@@ -15,10 +15,6 @@ class ipsObj:
         but less than 3 months greater.
         """
         toReturn = self.date > date and self.date < (date + datetime.timedelta(days=90))
-        # print(date)
-        # print(self.date)
-        # print(toReturn)
-        # print("hello")
         return toReturn
 
     def __init__(self, date, ips):
@@ -92,6 +88,7 @@ def add_historical_ips(col):
 
         for snapshot in snapshots:
             snap_date = snapshot['date']
+            # filter out all the ipObjects not close in time.
             result = filter(lambda x : x.close_in_time(snap_date), ipObjects)
             result_list = list(result)
             # only if result_list is not empty, do we update snapshot with ipObj
@@ -106,10 +103,10 @@ def add_historical_ips(col):
                 )
 
                 if result.acknowledged:
-                    print("updated ips")
+                    print("updated ips:\n")
+                    print(ipObj.ips)
+                    print("for dates:\n")
+                    print(ipObj.date)
+                    print(snap_date)
                 else:
                     print("something went wrong")
-
-                print(ipObj.ips)
-                print(ipObj.date)
-                print(snap_date)
