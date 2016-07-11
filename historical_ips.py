@@ -1,7 +1,6 @@
-from pymongo import MongoClient
+from bs4 import BeautifulSoup
 import datetime
 import requests
-from bs4 import BeautifulSoup
 import re
 import time
 
