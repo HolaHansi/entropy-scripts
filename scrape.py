@@ -1,13 +1,6 @@
 from bs4 import BeautifulSoup
-import copy
 import re
 import requests
-
-
-# def extract_top_sites(limit=500):
-# 	int i = 0
-# 	f = open('urls.txt', 'r')
-# 	urls = f.readlines()
 
 counter = 0
 sites = []

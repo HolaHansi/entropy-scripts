@@ -3,9 +3,6 @@ import requests
 from datetime import datetime
 import json
 
-
-
-
 def getDate(line):
 	"""
 	takes string, gets the date embedded in it, returns datetime obj
