@@ -1,5 +1,6 @@
 from getUrls import get_clean_urls, elim_urls, get_closest_snapshot, getDate
 import datetime
+from historical_ips import add_historical_ips
 import json
 import os
 from pymongo import MongoClient
@@ -169,6 +170,8 @@ set_descriptions()
 print("==== add ip and location data to db ====")
 add_ips_and_location()
 
+print("=== add historical ips to snapshots in db ====")
+add_historical_ips(col)
 
 
 print("now test if can collect from mongo\n\n")
