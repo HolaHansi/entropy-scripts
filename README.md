@@ -7,7 +7,12 @@ In order to run these scripts you must have an instance of a mongodb server runn
 ```
 mongod &
 ``` 
-Then call 
+Make sure you have the dependencies installed
+```
+pip install -r requirements.txt
+```
+Now call
 ```
 python main.py
 ```
+The scripts will take hours to terminate as they require a lot of network traffic. 
