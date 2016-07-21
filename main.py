@@ -1,3 +1,4 @@
+from arin import get_handler_on_ips
 from getUrls import get_clean_urls, elim_urls, get_closest_snapshot, getDate
 import datetime
 from historical_ips import add_historical_ips
@@ -146,7 +147,7 @@ def initiate_urls_with_snaps():
 		numURLS += 1
 		print("Gone through %d out of %d URLS... \n" % (numURLS, len(urls)))
 
-
+# connect to db
 client = MongoClient()
 db = client.alexaDB
 col = db.sites
@@ -165,12 +166,15 @@ initiate_urls_with_snaps()
 print("===== get descriptions to sites db ======== \n")
 set_descriptions()
 
-print("==== add ip and location data to db ====")
+print("==== add ip and location data to db ==== \n")
 add_ips_and_location()
 
-print("=== add historical ips to snapshots in db ====")
+print("=== add historical ips to snapshots in db ==== \n")
 add_historical_ips(col)
 
+print("=== get handler info for every IP in sites collection === \n")
+handlerCol = db.handlers
+get_handler_on_ips(col, handlerCol)
 
 print("now test if can collect from mongo\n\n")
 
@@ -185,5 +189,6 @@ cursor = col.find({"url": "google.com"})
 
 for p in cursor:
 	print (p)
+
 
 client.close()
