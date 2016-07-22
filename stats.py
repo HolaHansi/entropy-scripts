@@ -40,6 +40,7 @@ pipeline = [
         "_id": "$snapshots.date",
         "ips": {"$addToSet": "$snapshots.ips"}
     }},
+    {"$sort": {"_id": 1}}
 ]
 cur = colSites.aggregate(pipeline)
 for line in cur:
@@ -74,7 +75,8 @@ pipeline = [
     {"$group": {
         "_id": "$_id._id",
         "handlers": {"$addToSet": {"handlerName": "$_id.handlerName", "countIps": "$count"}}
-    }}
+    }},
+    {"$sort": {"_id": 1}}
 ]
 
 cur = colSites.aggregate(pipeline)
