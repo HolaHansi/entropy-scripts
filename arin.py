@@ -4,8 +4,6 @@ import requests
 from time import sleep
 import xml.etree.ElementTree as ET
 
-from pymongo import MongoClient
-
 
 url = "https://whois.arin.net/rest/ip/%s/"
 
