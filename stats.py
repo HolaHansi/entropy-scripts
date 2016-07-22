@@ -27,7 +27,7 @@ pipeline = [
 cur = colHandlers.aggregate(pipeline)
 
 for line in cur:
-    f.write(str(line) + "\n")
+    f.write(str(line) + ",\n")
 f.close()
 
 print("=== getting ipsPrDate.json === \n")
@@ -43,7 +43,7 @@ pipeline = [
 ]
 cur = colSites.aggregate(pipeline)
 for line in cur:
-    f.write(str(line) + "\n")
+    f.write(str(line) + ",\n")
 f.close()
 
 print("=== getting snapshotHandlers.json ==== \n")
@@ -79,7 +79,7 @@ pipeline = [
 
 cur = colSites.aggregate(pipeline)
 for x in cur:
-    f.write(str(x) + "\n")
+    f.write(str(x) + ",\n")
 f.close()
 
 print("succesfully created statfiles in directory: stats")
