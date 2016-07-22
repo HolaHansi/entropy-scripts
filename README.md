@@ -30,4 +30,4 @@ handlerNumIps.json      ipsPrDate.json          snapshotHandlers.json
 
 **snapshotHandlers.json** has for every snapshot date, a list of handlers, each with a field specifying the number of IPs in the top 500 alexa ranking that they were controlling on the date of the snapshot. 
 
-_ _ note; it might be an issue that counts are based on number of distinct ips and not all ips as it's possible that two sites may share a common IP _ _ 
+__ note that it might be an issue that all counts are based on distinct ips and not all ips as it is certainly possible that two sites may share a common IP __ 
