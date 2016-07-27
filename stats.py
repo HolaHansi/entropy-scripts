@@ -93,11 +93,39 @@ pipeline = [
         "handlers": {"$addToSet": {"handlerName": "$_id.handler", "countIps": "$countIps"}}
         }
     },
+
+    # get aggregated count of ips for each snapshot
+    {"$project": {
+        "date": "$_id",
+        "handlers": 1, 
+        "totalIps": {"$sum": "$handlers.countIps"},
+        "_id": 0
+    }
+    },
+    # for each handler in handlers, compute the ratio: countIps / totalIps 
+    {"$unwind": "$handlers"}, 
+
+    {"$group": {
+        "_id": "$date", 
+        "totalIps": {"$first": "$totalIps"},
+        "handlers": {"$addToSet": {"handlerName": "$handlers.handlerName", "countIps": "$handlers.countIps", "ratio": {"$divide": ["$handlers.countIps", "$totalIps"]}}}
+    }},
+
+    {"$project": {
+        "_id": 0,
+        "date": "$_id",
+        "handlers": 1,
+        "totalIps": 1
+    }},
+
     # sort by date
-    {"$sort": {"_id": 1}}
+    {"$sort": {"date": 1}}
 ]
 
 cur = colSites.aggregate(pipeline)
+# for x in cur:
+#     print(x)
+
 f.write("[\n")
 for x in cur:
     f.write(str(x) + ",\n")
