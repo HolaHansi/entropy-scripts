@@ -25,9 +25,10 @@ pipeline = [
 {"$sort": {"countIps": -1}}
 ]
 cur = colHandlers.aggregate(pipeline)
-
+f.write("[\n")
 for line in cur:
     f.write(str(line) + ",\n")
+f.write("]\n")
 f.close()
 
 print("=== getting ipsPrDate.json === \n")
@@ -43,21 +44,24 @@ pipeline = [
     {"$sort": {"_id": 1}}
 ]
 cur = colSites.aggregate(pipeline)
+f.write("[\n")
 for line in cur:
     f.write(str(line) + ",\n")
+f.write("]\n")
 f.close()
 
 print("=== getting snapshotHandlers.json ==== \n")
-# for each snapshot, get corresponding handlers with counts
+# for each snapshot, get corresponding handlers with counts of unique ips
 f = open("snapshotHandlers.json", "w")
 pipeline = [
     {"$unwind": "$snapshots"},
     {"$unwind": "$snapshots.ips"},
     {"$group": {
         "_id": "$snapshots.date",
-        "ips": {"$addToSet": "$snapshots.ips"}
+        "ips": {"$push": "$snapshots.ips"}
     }},
     {"$unwind": "$ips"},
+    # for every snapshot if the IP was in the handler ips, they are joined
     {"$lookup":
         {
         "from": "handlers",
@@ -66,6 +70,7 @@ pipeline = [
         "as": "handler"
         }
     },
+    # for each comb of date and handler.name, will records and count number of occurences
     {"$unwind": "$handler"},
     {"$group": {
             "_id": {"_id": "$_id", "handlerName": "$handler.name"},
@@ -73,15 +78,30 @@ pipeline = [
         }
     },
     {"$group": {
-        "_id": "$_id._id",
-        "handlers": {"$addToSet": {"handlerName": "$_id.handlerName", "countIps": "$count"}}
+         "_id": "$_id._id",
+        "handlers": {"$push": {"handlerName": "$_id.handlerName", "countIps": "$count"}}
     }},
+    {"$unwind": "$handlers"},
+    # we need to merge duplicates summing their ip counts
+    {"$group": {
+        "_id": {"_id": "$_id", "handler": "$handlers.handlerName"},
+        "countIps": {"$sum": "$handlers.countIps"}
+    }},
+    # finally, group by date of snapshot
+    {"$group": {
+        "_id": "$_id._id", 
+        "handlers": {"$addToSet": {"handlerName": "$_id.handler", "countIps": "$countIps"}}
+        }
+    },
+    # sort by date
     {"$sort": {"_id": 1}}
 ]
 
 cur = colSites.aggregate(pipeline)
+f.write("[\n")
 for x in cur:
     f.write(str(x) + ",\n")
+f.write("]\n")
 f.close()
 
 print("succesfully created statfiles in directory: stats")
