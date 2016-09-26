@@ -28,6 +28,6 @@ handlerNumIps.json      ipsPrDate.json          snapshotHandlers.json
 
 **ipsPrDate.json** has for every snapshot date a record of all the IPs belonging to some site on the top 500 alexa ranking of that date. 
 
-**snapshotHandlers.json** has for every snapshot date, a list of handlers, each with a field specifying the number of IPs in the top 500 alexa ranking that they were controlling on the date of the snapshot. 
+**snapshotHandlers.json** has for every snapshot date, a list of handlers, each with a field specifying the number of (not necessarily unique) IPs in the top 500 alexa ranking that they were controlling on the date of the snapshot, and the ratio between number of IPs they controlled and the total number of IPs in the snapsnot. 
 
-*note that*: it's probably an issue that all counts are based on distinct ips and not all ips, as it's possible that two sites may share a common IP
+*note that*: we only record the historical IPs of domains with a tld in [.com, .net, .org, .biz, .info, .mobi, .name] as these are the only ones covered by DNSTrails.com 
