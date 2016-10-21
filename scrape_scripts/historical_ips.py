@@ -4,10 +4,17 @@ import requests
 import re
 import time
 
+
+allowed_tlds = ['com', 'net', 'org', 'biz', 'info', 'mobi', 'name']
+
 class ipsObj:
     """
-    class for ips from dnsTrails.com
+    class for ips and nameservers from dnsTrails.com
     """
+    date = None
+    ips = None
+    ns = None
+
     def close_in_time(self, date):
         """
         returns true if ipsObj has date greater than date argument,
@@ -16,10 +23,6 @@ class ipsObj:
         toReturn = self.date > date and self.date < (date + datetime.timedelta(days=90))
         return toReturn
 
-    def __init__(self, date, ips):
-        self.date = date
-        self.ips = ips
-
 def make_request(url):
     requestURL = "http://server9.rscott.org/tools/lookup.htm?domain=" + url
     r = requests.get(requestURL)
@@ -27,7 +30,6 @@ def make_request(url):
     return soup
 
 def get_ips_dates(url):
-
     # attempt to call dnstrails.com at most 3 times.
     # or untill it gives more rows than 3
     # this is because site doesn't always work on first request.
@@ -43,26 +45,90 @@ def get_ips_dates(url):
         print("request %d failed" % i)
         time.sleep(5)
 
+    # return all the ipObjects from the rows
+    return ipObjects_from_rows(rows)
+
+
+def concat_ns(ns_list):
+    toReturn = ""
+    for i in range(len(ns_list)-1):
+        toReturn += (ns_list[i] + '.')
+    toReturn += ns_list[-1]
+    return toReturn
+
+
+def clean_ns(ns_list):
+    """
+    NS are scattered across multiple links, yet always ending in xxx.y where y is in allowed_tlds. 
+    Hence, we create a new list of Name servers by concatenating the scattered parts of a ns name into single NSs that 
+    end in xxx.y where y is in allowed_tlds. 
+    """
+    if len(ns_list) == 1:
+        return ns_list
+    else:
+        new_ns = []
+        # beginning of new ns
+        k = 0
+        for i in range(len(ns_list)):
+            if '.' in ns_list[i] and ns_list[i].split('.')[-1] in allowed_tlds:
+                new_ns.append(concat_ns(ns_list[k:i+1]))
+                k = i + 1
+        return new_ns
+
+def create_ipObject(row):
+    """
+    Given an a row, will create an ipObject.
+
+    """
+    tds = row.findAll('td')
+    i=0
+    obj = ipsObj()
+    for td in tds:
+        # for date
+        if (i==0):
+            # find a date in first column
+            date_str = re.search("[0-9][0-9]/[0-9][0-9]/[0-9][0-9][0-9][0-9]", str(td)).group()
+            date = datetime.datetime.strptime(date_str, "%m/%d/%Y")
+            obj.date = date
+        # for NS 
+        if (i==2):
+            name_servers = []
+            ns_cursor = td.findAll('a')
+            for ns in ns_cursor:
+                name_servers.append(ns.contents[0])
+            clean_ns(name_servers)    
+            obj.ns = name_servers
+        # ips
+        if (i==3):
+            ips = []
+            ips_cursor = td.findAll('a')
+            for ip in ips_cursor:
+                ips.append(ip.contents[0])
+            obj.ips = ips
+        # increment to consider next column in row..
+        i += 1
+
+    if obj.ns:
+         obj.ns = clean_ns(obj.ns)
+    return obj
+
+
+def ipObjects_from_rows(rows):
+    """
+    Given a list of rows in table from DNSTrails.com, will make call to create_ipObject and make an ipobject for each row and return these
+    as a list of ipObjects. Will only add ipObject to list if it has a date, and has an IP or a NS. 
+    """
     ipObjects = []
     # print(rows)
     for row in rows:
-        tds = row.findAll('td')
-        i=0
-        for td in tds:
-            # for date
-            if (i==0):
-                date_str = re.search("[0-9][0-9]/[0-9][0-9]/[0-9][0-9][0-9][0-9]", str(td)).group()
-                date = datetime.datetime.strptime(date_str, "%m/%d/%Y")
-            # ips
-            if (i==3):
-                ips = []
-                ips_cursor = td.findAll('a')
-                for ip in ips_cursor:
-                    ips.append(ip.contents[0])
-                obj = ipsObj(date, ips)
-                ipObjects.append(obj)
-            i += 1
+        obj = create_ipObject(row)
+        # only if obj has a date, and has ips or ns records, should we save it.. 
+        if obj.date is not None and (obj.ips is not None or obj.ns is not None):
+            ipObjects.append(obj)
     return ipObjects
+
+
+
 
 
 def add_historical_ips(col):
@@ -71,15 +137,22 @@ def add_historical_ips(col):
     with a tld in allowed_tlds.
     """
     sites = col.find({})
+    number_of_sites = col.find({}).count()
+    i = 1
+    number_of_site_in_tld = 0
+    success_updates = 0
     for site in sites:
+        i += 1
+        print("==== request %d out of %d ==== " % (i, number_of_sites))
         url = site['url']
         snapshots = site['snapshots']
-
-        allowed_tlds = ['com', 'net', 'org', 'biz', 'info', 'mobi', 'name']
 
         if url.split('.')[-1] not in allowed_tlds:
             print("can't get ips for domain %s" % url.split('.')[1])
             continue
+
+        number_of_site_in_tld += 1
+
 
         print("===== Updating IPs for %s ===== \n \n" % url)
         # get ipObjects
@@ -97,15 +170,33 @@ def add_historical_ips(col):
                 result = col.update_one(
                 {'url': url, 'snapshots.date': snap_date},
                 {
-                    "$set": {'snapshots.$.ips': ipObj.ips }
+                    "$set": {'snapshots.$.ips': ipObj.ips, 'snapshots.$.name_servers': ipObj.ns}
                 }
                 )
-
                 if result.acknowledged:
-                    print("updated ips:\n")
-                    print(ipObj.ips)
+                    print("updated ips and NS\n")
+                    print(ipObj.ips, ipObj.ns)
                     print("for dates:\n")
                     print(ipObj.date)
                     print(snap_date)
                 else:
                     print("something went wrong")
+            success_updates += 1
+
+    print("number of successful updates: %d out of number in tld: %d number of sites: %d" % 
+        (success_updates, number_of_site_in_tld, number_of_sites))
+
+
+
+
+# for testing
+from pymongo import MongoClient
+# connect to db
+client = MongoClient()
+db = client.alexaDB
+col = db.sites
+
+add_historical_ips(col)
+
+
+
